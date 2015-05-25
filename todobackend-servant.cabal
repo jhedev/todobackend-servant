@@ -29,7 +29,7 @@ executable todobackend-servant
                      , persistent-sqlite
                      , persistent-template
                      , resourcet
-                     , servant-server
+                     , servant-server >= 0.4
                      , text
                      , transformers
                      , wai
